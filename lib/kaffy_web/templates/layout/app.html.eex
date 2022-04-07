@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title><%= Kaffy.Utils.title() %> - Kaffy</title>
+    <title><%= Kaffy.Utils.title() %></title>
     <link rel="stylesheet" href="<%= Kaffy.Utils.static_asset_path(@conn, "/kaffy/assets/vendors/fontawesome/css/all.css") %>">
     <link rel="stylesheet" href="<%= Kaffy.Utils.static_asset_path(@conn, "/kaffy/assets/vendors/css/vendor.bundle.base.css") %>">
     <link rel="stylesheet" href="<%= Kaffy.Utils.static_asset_path(@conn, "/kaffy/assets/scss/style.css") %>">
@@ -146,7 +146,7 @@
 
           <footer class="footer">
             <div class="d-sm-flex justify-content-center justify-content-sm-between">
-              <span class="text-muted text-center text-sm-left d-block d-sm-inline-block">Copyright © 2020 Kaffy. All rights reserved.</span>
+              <span class="text-muted text-center text-sm-left d-block d-sm-inline-block"></span>
             </div>
           </footer>
 
